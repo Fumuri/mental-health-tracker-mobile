@@ -126,6 +126,8 @@ class _MoodEntryFormPageState extends State<MoodEntryFormPage> {
                                 children: [
                                   Text('Mood: $_mood'),
                                   // TODO: Munculkan value-value lainnya
+                                  Text('Feelings: $_feelings'),
+                                  Text('Mood Intensity: $_moodIntensity'),
                                 ],
                               ),
                             ),

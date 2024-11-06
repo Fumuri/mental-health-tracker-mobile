@@ -34,6 +34,11 @@ class ItemCard extends StatelessWidget {
           // Navigate ke route yang sesuai (tergantung jenis tombol)
           if (item.name == "Tambah Mood") {
             // TODO: Gunakan Navigator.push untuk melakukan navigasi ke MaterialPageRoute yang mencakup MoodEntryFormPage.
+            Navigator.pushReplacement(
+                context,
+                MaterialPageRoute(
+                  builder: (context) => MoodEntryFormPage(),
+                ));
           }
         },
         // Container untuk menyimpan Icon dan Text
